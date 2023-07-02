@@ -1,57 +1,200 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-  </style>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Raina Demo Website</title>
-</head>
-<style>
-    body{
-        font-family:'Roboto Mono', 'monospace';
-        padding-top: 40px;
-        color: white;
-        background-color: black;
-    }
-    nav{
-        background-color: #5f22c0;
-        height: 30px;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: space-between;
-      }
-    nav a{
-        color: rgb(255, 255, 255);
-        background-color:rgb(0, 0, 0);
-        display: inline-block;
-        padding: 5px;
-        text-decoration: none;
-        border: 4px solid rgb(34, 16, 75);
-        border-radius: 4px;
-
-    }
-</style>
-<body>
-    <nav>
-      <a >Home</a>
-      <a href="aboutme.html" >About Me</a>
-      <a >Services</a>
-      <a href="https://github.com/adityaraina100" target="_blank">Contact Me</a>
-    </nav>
-    
-    
-
-    <p>Hi! I am Aditya and this is a website that I will be building from scratch using HTML,CSS AND Javascript.I will be learning how to implement them properly by doing the best possible action,i.e practice!!</p>
-<p> I want to learn Front-end development as I LIKE to design in general, and what better way could be there to see your designs in action than building something out of it.
-    <p >This will take time as I am doing this a side project(learning).I am not good at it and thats the whole purpose of making it.</p>
-    <p >If you are seeing this,thanks for checking it out. Feel free to contact me to drop me with some help or advice.</p>
-    
-
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+      
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">VISIT J&K</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Insights</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Visit Jammu&Kashmir</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">PARADISE ON EARTH</h2>
+                        <a class="btn btn-primary" href="#about">More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4"></h2>
+                        <p class="text-white-50">
+                            Welcome to Jammu and Kashmir, a mesmerizing destination nestled in the northernmost part of India. With its breathtaking landscapes, rich cultural heritage, and warm hospitality, Jammu and Kashmir is truly a paradise on earth. Immerse yourself in the serene beauty of the snow-capped Himalayas, explore the pristine valleys, and embark on thrilling adventures in the vast wilderness. Discover the enchanting Dal Lake in Srinagar, visit the revered Vaishno Devi Shrine in Katra, or embark on a spiritual journey to the sacred Amarnath Cave. 
+                            Indulge in the aromatic flavors of Kashmiri cuisine and experience the vibrant local traditions and festivals. Get ready for an unforgettable journey that will leave you in awe of the timeless charm of Jammu and Kashmir.
+                           
+                           
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/11.png" alt="..." />
+            </div>
+        </section>
+        <!-- INSIGHTS-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/dal lake.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Dal Lake,Srinagar</h4>
+                            <p class="text-black-50 mb-0">Dal Lake in Srinagar, Jammu and Kashmir, is a true gem that captivates visitors with its ethereal beauty.
+                                Known as the jewel of Srinagar, this enchanting lake stretches over 15 kilometers and is surrounded by majestic snow-capped mountains and lush greenery. Adorned with vibrant houseboats and shikaras (traditional Kashmiri wooden boats), the tranquil waters of Dal Lake offer a peaceful retreat for travelers. Explore its floating gardens, visit the intricate Mughal gardens along its shores, and witness the magical sunrise or sunset that paints the sky with stunning hues, creating a truly unforgettable experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/test.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Vaishno Devi Temple,Katra</h4>
+                                    <p class="mb-0 text-white-50">Vaishno Devi Temple, located in the picturesque town of Katra in Jammu and Kashmir, is one of the most revered Hindu pilgrimage sites in India. Situated atop the Trikuta Mountains, the temple is dedicated to Goddess Vaishno Devi, who is believed to fulfill the wishes of her devotees. To reach the temple, visitors embark on a scenic trek through the hilly terrain, immersing themselves in a spiritual and adventurous journey. 
+                                        The temple complex offers a serene atmosphere and an opportunity for devotees to seek blessings and experience a deep sense of devotion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/test2.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Bahu Fort,Jammu</h4>
+                                    <p class="mb-0 text-white-50">Bahu Fort, situated in Jammu, is a historic landmark that stands as a testament to the city's rich heritage. Built around the 19th century, the fort offers a magnificent view of the Tawi River and the surrounding landscapes. With its striking architecture and well-preserved structures, including the ancient Bahu Temple dedicated to Goddess Kali, the fort attracts visitors seeking to explore the region's history and culture. The fort's serene ambiance, lush gardens, and panoramic vistas make it a popular destination for locals and tourists alike.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">More New Updates?</h2>
+                        <!--not using the form submission as it required me to purchase the service.-->
+                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="not functional currently" aria-label="not functional currently" data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                            </div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mt-2 text-white">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is whatusers will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">My Linkedin</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://www.linkedin.com/in/adityaaraina/">Click Here!</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">adityaraina788@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">XXX-XXX-XXX</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://github.com/adityaraina100"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; My website 2023</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
